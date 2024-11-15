@@ -1,0 +1,143 @@
+﻿namespace FinalProjectEmployeeSM.datagridActions
+{
+    partial class getReport
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.TotalEmployee_label = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.label1.Location = new System.Drawing.Point(300, 33);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(175, 36);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Print Report";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label2.Location = new System.Drawing.Point(227, 229);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(154, 25);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Total Employee:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label3.Location = new System.Drawing.Point(226, 117);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(168, 25);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Total Department:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label4.Location = new System.Drawing.Point(226, 177);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(125, 25);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Total Spend:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(476, 117);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(46, 25);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "N/A";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // TotalEmployee_label
+            // 
+            this.TotalEmployee_label.AutoSize = true;
+            this.TotalEmployee_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.TotalEmployee_label.Location = new System.Drawing.Point(476, 229);
+            this.TotalEmployee_label.Name = "TotalEmployee_label";
+            this.TotalEmployee_label.Size = new System.Drawing.Size(46, 25);
+            this.TotalEmployee_label.TabIndex = 7;
+            this.TotalEmployee_label.Text = "N/A";
+            this.TotalEmployee_label.Click += new System.EventHandler(this.TotalEmployee_label_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label7.Location = new System.Drawing.Point(476, 177);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(46, 25);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "N/A";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // getReport
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 389);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.TotalEmployee_label);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Name = "getReport";
+            this.Text = "getReport";
+            this.Load += new System.EventHandler(this.getReport_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label TotalEmployee_label;
+        private System.Windows.Forms.Label label7;
+    }
+}
